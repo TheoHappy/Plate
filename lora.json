@@ -1,14 +1,13 @@
 {
-    "processing_time":177.12,
-    "timestamp":"2019-10-26T19:48:39.156062Z",
-    "results":[
-        {
-            "plate":"aaa1",
-            "score":0.902,
-            "dscore":0.681
-        }
-            
-    ],
-    "filename":"19_48_licensePlate.jpg",
-    "version":1
+  "processing_time": 177.12,
+  "timestamp": "2019-10-26T19:48:39.156062Z",
+  "results": [
+    {
+      "plate": "aaa1",
+      "score": 0.902,
+      "dscore": 0.681
+    }
+  ],
+  "filename": "19_48_licensePlate.jpg",
+  "version": 1
 }

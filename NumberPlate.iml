@@ -19,6 +19,11 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.10" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: com.github.tomas-langer:chalk:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.hawtjni:hawtjni-runtime:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.jansi:jansi-native:1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.fusesource.jansi:jansi-native:windows32:1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.fusesource.jansi:jansi-native:windows64:1.5" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />

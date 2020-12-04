@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.fusesource.jansi:jansi-native:windows32:1.5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/fusesource/jansi/jansi-native/1.5/jansi-native-1.5-windows32.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/fusesource/jansi/jansi-native/1.5/jansi-native-1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/fusesource/jansi/jansi-native/1.5/jansi-native-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

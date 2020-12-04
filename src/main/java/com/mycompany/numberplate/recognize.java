@@ -6,16 +6,18 @@
 package com.mycompany.numberplate;
 
 
+import com.github.tomaslanger.chalk.Chalk;
 import kong.unirest.JsonNode;
 
-import java.text.ParseException;
 import java.util.Calendar;
-import java.util.Iterator;
+
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
 
+import java.util.Scanner;
 import java.io.*;
 import java.io.Reader;
+
 import kong.unirest.Unirest;
 import kong.unirest.HttpResponse;
 import org.json.simple.parser.JSONParser;
@@ -29,7 +31,10 @@ public class recognize {
     public static void main(String[] args) {
         // Get api key from https://app.platerecognizer.com/start/ and replace MY_API_KEY
         String token = "cb64169b1f0c23fe7b40ab50ddec27a321ceb3d0";
-        String file = "/Users/theo/Documents/Java Apps/deep-license-plate-recognition/java/PlateRecognizer/number.jpg";
+        System.out.println("Introduce the name of the photo: ");
+        Scanner myObj = new Scanner(System.in);
+        String imgPath = myObj.nextLine();
+        String file = "/Users/theo/Documents/Java Apps/deep-license-plate-recognition/java/PlateRecognizer/" + imgPath;
 
         try {
             HttpResponse<JsonNode> request = Unirest.post("https://api.platerecognizer.com/v1/plate-reader/")
@@ -61,9 +66,9 @@ public class recognize {
                 //  System.out.println("Last digit:" + lastDigit);
                 //  System.out.println("Current day:" + currentDay);
                 if (currentDay % 2 == lastDigit % 2) {
-                    System.out.println("Free to go");
+                    System.out.println(Chalk.on("Free to go").green());
                 } else {
-                    System.out.println("Don't use your car today, use public transport");
+                    System.out.println(Chalk.on("Don't use your car today, use public transport").red());
                 }
 
 
